@@ -21,7 +21,7 @@ export default class App extends Component {
           <Routes>
               <Route exact path="/" element={ <Registration />} />
               <Route path="/login" element={ <Login />} />
-              {/* <Route path="/todo" element={ <InputItem  /> } /> */}
+              <Route path="/todo" element={ <InputItem  /> } />
           </Routes>
         </Router>
     )
