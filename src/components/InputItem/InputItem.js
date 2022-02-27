@@ -2,10 +2,10 @@ import React, { Component } from "react";
 import { Button, Container } from "reactstrap";
 import { TextField } from "@material-ui/core";
 import { Navigate } from "react-router-dom";
-import { TodoList } from "../TodoList/TodoList";
+import TodoList  from "../TodoList/TodoList";
+import EditTodo from "../EditTodo/EditTodo";
 import "./style.css";
 import { ThemeProvider, createTheme } from "@material-ui/core/styles";
-import EditTodo from "../EditTodo/EditTodo";
 
 const theme = createTheme({
     palette: {
